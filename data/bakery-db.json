@@ -1,0 +1,185 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Test Customer",
+      "email": "ananya.sharma@example.com",
+      "phone": "9876543210",
+      "address": "123 Indiranagar, Bengaluru - 560038",
+      "city": "Bengaluru",
+      "pincode": "560038",
+      "createdAt": "2026-10-04T02:27:22.226Z"
+    },
+    {
+      "id": 2,
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@example.com",
+      "phone": "9812345678",
+      "address": "B-12, Palm Meadows, Whitefield",
+      "city": "Bengaluru",
+      "pincode": "560066",
+      "createdAt": "2026-10-06T02:27:22.226Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Truffle Cake",
+      "description": "Layers of rich Dutch cocoa sponge filled with silky dark chocolate ganache and chocolate curls.",
+      "category": "Cakes",
+      "price": 599,
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.225Z"
+    },
+    {
+      "id": 2,
+      "name": "Red Velvet Cake",
+      "description": "Velvety crimson sponge layered with our signature Madagascar vanilla cream cheese frosting.",
+      "category": "Cakes",
+      "price": 699,
+      "imageUrl": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.225Z"
+    },
+    {
+      "id": 3,
+      "name": "Black Forest Cake",
+      "description": "Classic kirsch-infused cocoa cake layered with sweet sour-cherry compote and fresh whipped cream.",
+      "category": "Cakes",
+      "price": 649,
+      "imageUrl": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.225Z"
+    },
+    {
+      "id": 4,
+      "name": "Vanilla Celebration Cake",
+      "description": "Pure Bourbon vanilla bean crumb with whipped buttercream, pastel sprinkles, and edible pearl accents.",
+      "category": "Cakes",
+      "price": 549,
+      "imageUrl": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.225Z"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Cupcakes",
+      "description": "A box of 6 ultra-moist dark chocolate cupcakes crowned with fudge swirls and golden cocoa nibs.",
+      "category": "Cupcakes",
+      "price": 399,
+      "imageUrl": "https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.225Z"
+    },
+    {
+      "id": 6,
+      "name": "Fudge Brownies",
+      "description": "Box of 6 crinkly-top artisanal brownies with molten 70% dark chocolate pockets and sea salt.",
+      "category": "Brownies",
+      "price": 349,
+      "imageUrl": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.225Z"
+    },
+    {
+      "id": 7,
+      "name": "Butter Cookies",
+      "description": "Golden, melt-in-your-mouth European cultured butter cookies dusted with sparkling demerara sugar.",
+      "category": "Cookies",
+      "price": 299,
+      "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.226Z"
+    },
+    {
+      "id": 8,
+      "name": "Custom Celebration Cake",
+      "description": "Two-tier artisanal centerpiece custom designed to your chosen palette, personalized piping, and toppers.",
+      "category": "Custom Cakes",
+      "price": 999,
+      "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "createdAt": "2026-10-07T02:27:22.226Z"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "SC-7975",
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "size": "1 kg",
+      "flavor": "Belgian Chocolate Truffle",
+      "theme": "Golden Elegance",
+      "cakeMessage": "Happy Birthday!",
+      "eggless": true,
+      "additionalDecorations": "Gold Foil & Macarons",
+      "specialInstructions": "",
+      "deliveryDate": "2026-10-10",
+      "deliveryTime": "10:00 AM - 12:00 PM",
+      "deliveryAddress": "123 Indiranagar, Bengaluru - 560038",
+      "subtotal": 1898,
+      "customizationCharge": 400,
+      "deliveryCharge": 50,
+      "total": 2348,
+      "status": "BAKING",
+      "id": 3,
+      "createdAt": "2026-10-07T02:27:30.637Z",
+      "updatedAt": "2026-10-07T02:27:39.989Z"
+    },
+    {
+      "id": 1,
+      "orderNumber": "SC-8421",
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "size": "1 kg",
+      "flavor": "Belgian Chocolate Truffle",
+      "theme": "Golden Elegance",
+      "cakeMessage": "Happy 25th Anniversary Mom & Dad",
+      "eggless": true,
+      "additionalDecorations": "Gold Foil + Fresh Strawberries",
+      "specialInstructions": "Please make sure delivery happens before 4 PM.",
+      "deliveryDate": "2026-10-08",
+      "deliveryTime": "02:00 PM - 04:00 PM",
+      "deliveryAddress": "Flat 402, Lotus Greens, Indiranagar, Bengaluru - 560038",
+      "subtotal": 949,
+      "customizationCharge": 120,
+      "deliveryCharge": 50,
+      "total": 1119,
+      "status": "BAKING",
+      "createdAt": "2026-10-06T02:27:22.226Z",
+      "updatedAt": "2026-10-07T01:27:22.226Z"
+    },
+    {
+      "id": 2,
+      "orderNumber": "SC-7934",
+      "customerId": 2,
+      "productId": 2,
+      "quantity": 1,
+      "size": "0.5 kg",
+      "flavor": "Classic Red Velvet",
+      "theme": "Minimalist Floral",
+      "cakeMessage": "Welcome Home Rhea!",
+      "eggless": false,
+      "additionalDecorations": "French Macarons (2 pcs)",
+      "specialInstructions": "Ring doorbell twice upon arrival.",
+      "deliveryDate": "2026-10-09",
+      "deliveryTime": "10:00 AM - 12:00 PM",
+      "deliveryAddress": "B-12, Palm Meadows, Whitefield, Bengaluru - 560066",
+      "subtotal": 699,
+      "customizationCharge": 80,
+      "deliveryCharge": 50,
+      "total": 829,
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-06T21:27:22.226Z",
+      "updatedAt": "2026-10-06T21:27:22.226Z"
+    }
+  ],
+  "nextIds": {
+    "customer": 3,
+    "product": 9,
+    "order": 4
+  }
+}
